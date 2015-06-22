@@ -14,7 +14,7 @@ for channel in channels:
     print "Activating channel", channel
     GPIO.setup(channel, GPIO.OUT)
     GPIO.output(channel, GPIO.HIGH)
-    time.sleep(2)
+    time.sleep(1)
 
 GPIO.cleanup()
 
